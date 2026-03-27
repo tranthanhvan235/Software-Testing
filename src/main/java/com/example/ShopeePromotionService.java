@@ -9,7 +9,6 @@ public class ShopeePromotionService {
         if (paymentMethod == null)
             return -1;
 
-        int discount = 0;
         boolean isFlashSale = (hour == 0 || hour == 12);
         boolean isShopeePay = paymentMethod.equals("ShopeePay");
 
